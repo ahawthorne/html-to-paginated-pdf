@@ -1,14 +1,8 @@
-require 'rubygems'
 require 'bundler'
-
 Bundler.require
 
-require 'sinatra'
+set :environment, :production
+set :run, false
 
-Sinatra::Application.default_options.merge!(
-  :run => false,
-  :env => :production
-)
-
-require 'app'
-run Sinatra.application
+require './app'
+run Sinatra::Application
