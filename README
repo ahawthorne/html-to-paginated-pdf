@@ -14,3 +14,12 @@ Requirements:
 * ruby
 * Sinatra gem
 * Connection to the Internets
+
+Do things:
+
+```bash
+bundle install --path bundle
+bundle exec rackup
+```
+
+now convert some html to pdf
