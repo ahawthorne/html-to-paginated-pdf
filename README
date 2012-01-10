@@ -10,11 +10,7 @@ In order to take advantage of print CSS declarations this program will take your
 
 Requirements:
 
-* OS X
+* wkhtmltopdf >= 0.11.0 RC1 (http://code.google.com/p/wkhtmltopdf/)
 * ruby
 * Sinatra gem
-* wkpdf gem
-* Ruby cocoa
 * Connection to the Internets
-
-
